@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour {
     static GameManager mInst;
     static public GameManager instance { get { return mInst; } }
 
-    public GameObject[] Enemies;
+    public Camera cam;
+    public EnemyBehaviour[] enemyList;
     
     void Awake()
     {
