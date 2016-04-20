@@ -1457,7 +1457,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 408614}
   - 114: {fileID: 11410868}
-  - 114: {fileID: 11433072}
   m_Layer: 0
   m_Name: PLAYER
   m_TagString: Player
@@ -2515,7 +2514,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 469814}
   - 95: {fileID: 9596044}
-  - 114: {fileID: 11435258}
   m_Layer: 0
   m_Name: Hero_CombatAnimation
   m_TagString: Untagged
@@ -6165,28 +6163,6 @@ MonoBehaviour:
   maxSwipeConeAngleTolerance: 12
   angleTolerence: 2
   enemySelected: {fileID: 0}
---- !u!114 &11433072
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 140542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62035fefc25337b4da327abcc2f5f880, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11435258
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 176564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62035fefc25337b4da327abcc2f5f880, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11464128
 MonoBehaviour:
   m_ObjectHideFlags: 1
